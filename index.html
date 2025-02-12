@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Photo Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body onload="initializeGallery()">
+    <div id="image" class="image-display">Hover over an image below to display here.</div>
+    <div class="gallery">
+        <figure><img class="preview" src="https://images.pexels.com/photos/47547/squirrel-animal-cute-rodents-47547.jpeg?cs=srgb&dl=pexels-pixabay-47547.jpg&fm=jpg" alt="Squirrel" onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()"></figure>
+        <figure><img class="preview" src="https://media-cdn-v2.laodong.vn/Storage/NewsPortal/2019/11/4/763881/D1.jpg" alt="Panda" onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()"></figure>
+        <figure><img class="preview" src="https://hoanghamobile.com/tin-tuc/wp-content/uploads/2024/06/hinh-anh-con-vat-16.jpg" alt="Rabit" onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()"></figure>
+        <figure><img class="preview" src="https://png.pngtree.com/thumb_back/fh260/background/20210907/pngtree-animals-daytime-little-yellow-duck-outdoor-lawn-photography-picture-with-picture-image_813831.jpg" alt="Duck" onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()"></figure>
+        <figure><img class="preview" src="https://btnmt.1cdn.vn/2022/06/13/2500-1-.jpg" alt="Lion" onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()"></figure>
+        <figure><img class="preview" src="https://hoangphucphoto.com/wp-content/uploads/2023/03/anh-dv-mat-doi-mat.jpg" alt="Tiger" onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()"></figure>
+    </div>
+</body>
+</html>
